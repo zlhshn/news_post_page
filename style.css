@@ -87,6 +87,7 @@ nav .nav-bar img {
 
 main{
   display: flex;
+
   background-color: #F5F5F5;
  
   align-items: flex-start;
@@ -100,12 +101,12 @@ main{
 /* ---------------------------------------aside----------------------------------- */
 .sidebar{
   background-color: #FFFFFF;
-  margin-top: 1rem;
+ 
   margin-left: 30rem;
   padding: 1rem 1rem 1rem;
   height: 400px;
-  margin-top: 2.6rem;
-  box-shadow: 0 0 5px  black;
+  margin-top: 2.1rem;
+  box-shadow: rgb(128,128,128) 3px 3px 3px 0px;
  
 
  
@@ -121,7 +122,7 @@ main{
   list-style-type: none;
   padding: 1rem;
   border-radius: 20px;
-  width: 200px;
+  width: 250px;
   font-weight: 300;
  
 }
@@ -140,7 +141,7 @@ main{
 
 .right-bar{
  
-  margin: 1rem;
+  margin: 0.5rem;
   padding: 10px;
   
   width: 40%;
@@ -152,7 +153,7 @@ main{
   padding: 1rem;
   margin: 1rem 0 0 1rem;
   background-color: #FFFFFF;
-  box-shadow: 0 0 5px  black;
+  box-shadow: rgb(128,128,128) 3px 3px 3px 0px;
  
  
   
@@ -169,6 +170,7 @@ main{
 
 .part1{
   display: flex;
+  flex-wrap: wrap;
   padding: 1rem;
   border-bottom: 2px solid #808080;
 
@@ -210,21 +212,24 @@ main{
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-content: flex-start;
+  /* height: 316px; */
 }
 
 .part2 .article img{
   width: 118px;
-  height: 86px;
-  flex: 1;
-  box-shadow:  0,0,1rem black;
+  /* height: 86px; */
+  /* flex-shrink: -3; */
+  box-shadow: rgb(128,128,128) 3px 3px 3px 0px;
   margin-right: 1rem;
   border: 12px solid #20889F;
   border-radius: 20px;
   
 }
 
-
+/* .part2 .article-text{
+  flex-shrink: 1;
+} */
 
 .part2 .article{
   padding: 1rem;
@@ -244,9 +249,9 @@ main{
 }
 .top{
   background-color: #FFFFFF;
-  box-shadow: 0 0 5px  black;
+  box-shadow: rgb(128,128,128) 3px 3px 3px 0px;
   padding: 1rem;
-  margin: 1rem 0 0 1rem;
+  margin: 3rem 0 0 1rem;
 }
 .top h2{
   font-weight: 500;
@@ -261,9 +266,13 @@ main{
 .top .new{
 text-align: center;
 margin-top: 1rem;
+padding: 20px;
 }
 .top-news img{
   border-radius: 20px;
+  width: 300px;
+  height: 123px;
+  flex-shrink: 1;
  
 }
 .new-text{
@@ -273,4 +282,9 @@ margin-top: 1rem;
 
 .new-text-p1{
   font-weight: 600;
+  font-size: 18px;
+}
+
+.new-text-p{
+  font-weight: 300;
 }
