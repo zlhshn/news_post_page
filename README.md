@@ -3,7 +3,12 @@
 ## Description
 Project aims to create basic news page with HTML and CSS
 
+## Project page
+[News Project ](https://zlhshn.github.io/news_post_page/)
+
 ### The project, following topics are to be covered;
+
+
 
 - HTML 
 - Css
