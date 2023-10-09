@@ -282,12 +282,13 @@ padding: 20px;
   border-radius: 20px;
   width: 300px;
   height: 123px;
-  flex-shrink: 1;
+  flex-shrink: 5;
  
 }
 .new-text{
   text-align: center;
   padding: 0.5rem;
+  flex-shrink: 1;
 }
 
 .new-text-p1{
