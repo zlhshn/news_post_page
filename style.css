@@ -225,7 +225,7 @@ main{
 .part2 .article img{
   width: 118px;
   /* height: 86px; */
-  /* flex-shrink: -3; */
+  /* flex-shrink: 10; */
   box-shadow: rgb(128,128,128) 3px 3px 3px 0px;
   margin-right: 1rem;
   border: 12px solid #20889F;
@@ -280,8 +280,9 @@ padding: 20px;
 }
 .top-news img{
   border-radius: 20px;
-  width: 300px;
-  height: 123px;
+  width: 100%;
+  /* width: 300px; */
+  /* height: 123px; */
   flex-shrink: 5;
  
 }
